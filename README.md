@@ -1,3 +1,3 @@
-# firstweb.io
+# firstweb
 
 My first ever website
