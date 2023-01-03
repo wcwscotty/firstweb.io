@@ -15,12 +15,19 @@ body{
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 12px;
-    margin-left: 100px;
+    margin-left: 500px;
+    transform: rotate(0deg);
+    transition: .5s;
+}
+
+#white_border1:hover{
+    transform: rotate(12deg);
 }
 
 #cat_pic1{
     width: 300px;
     height: 225px;
+    display: inline-block;
     background-image: url("./img/cat1.jpg");
 }
 
@@ -49,7 +56,8 @@ body{
     padding-right: 12px;
     padding-top: 12px;
     margin-top: -387px;
-    margin-left: 900px;
+    margin-left: 500px;
+    transition: .5s;
 }
 
 #cat_pic3{
