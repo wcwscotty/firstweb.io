@@ -8,7 +8,21 @@ body{
     background-color: rgb(185, 176, 136);
 }
 
-#white_border1{
+.cat_pics{
+    width: 0px;
+    height: 0px;
+}
+
+.cat_pics:hover > .white_border1{
+    transform: rotate(-12deg) translate(-300px, 0px);
+}
+
+.cat_pics:hover > .white_border3{
+    transform: rotate(12deg) translate(300px, 0px);
+}
+
+
+.white_border1{
     width: 300px;
     height: 375px;
     background-color: white;
@@ -20,10 +34,6 @@ body{
     transition: .5s;
 }
 
-#white_border1:hover{
-    transform: rotate(12deg);
-}
-
 #cat_pic1{
     width: 300px;
     height: 225px;
@@ -31,7 +41,7 @@ body{
     background-image: url("./img/cat1.jpg");
 }
 
-#white_border2{
+.white_border2{
     width: 300px;
     height: 375px;
     background-color: white;
@@ -48,7 +58,7 @@ body{
     background-image: url("./img/cat2.jpg");
 }
 
-#white_border3{
+.white_border3{
     width: 300px;
     height: 375px;
     background-color: white;
@@ -57,6 +67,7 @@ body{
     padding-top: 12px;
     margin-top: -387px;
     margin-left: 500px;
+    transform: rotate(0deg);
     transition: .5s;
 }
 
